@@ -1,0 +1,3986 @@
+{
+  "meta": {
+    "isSynthetic": true,
+    "note": "Sample/demo data generated for development and demonstration purposes only, per the DawAI project proposal's synthetic-dataset methodology. Not real hospital or surveillance records.",
+    "currentMonth": "2026-07",
+    "historicalMonths": [
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07"
+    ],
+    "forecastMonths": [
+      "2026-08",
+      "2026-09",
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01"
+    ],
+    "generatedAt": "2026-08-13T11:12:08.024Z"
+  },
+  "series": {
+    "hiv": {
+      "nairobi": [
+        {
+          "month": "2024-08",
+          "cases": 241,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 238,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 252,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 231,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 209,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 223,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 246,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 252,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 255,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 246,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 252,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 245,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 243,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 234,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 232,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 229,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 228,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 218,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 235,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 233,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 238,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 264,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 269,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 239,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 248,
+          "low": 231,
+          "high": 265,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 243,
+          "low": 221,
+          "high": 265,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 241,
+          "low": 214,
+          "high": 268,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 236,
+          "low": 205,
+          "high": 267,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 224,
+          "low": 190,
+          "high": 258,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 226,
+          "low": 188,
+          "high": 264,
+          "type": "forecast"
+        }
+      ],
+      "central": [
+        {
+          "month": "2024-08",
+          "cases": 104,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 108,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 102,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 108,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 98,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 100,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 99,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 109,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 110,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 113,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 109,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 108,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 110,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 110,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 109,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 105,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 94,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 93,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 108,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 106,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 114,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 108,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 115,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 110,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 108,
+          "low": 100,
+          "high": 116,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 106,
+          "low": 96,
+          "high": 116,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 105,
+          "low": 93,
+          "high": 117,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 103,
+          "low": 90,
+          "high": 116,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 98,
+          "low": 83,
+          "high": 113,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 99,
+          "low": 82,
+          "high": 116,
+          "type": "forecast"
+        }
+      ],
+      "coast": [
+        {
+          "month": "2024-08",
+          "cases": 206,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 201,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 183,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 195,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 181,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 174,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 193,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 207,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 200,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 203,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 200,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 198,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 210,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 187,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 194,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 189,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 177,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 192,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 195,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 186,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 199,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 195,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 211,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 205,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 201,
+          "low": 187,
+          "high": 215,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 197,
+          "low": 179,
+          "high": 215,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 196,
+          "low": 174,
+          "high": 218,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 192,
+          "low": 167,
+          "high": 217,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 182,
+          "low": 155,
+          "high": 209,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 184,
+          "low": 153,
+          "high": 215,
+          "type": "forecast"
+        }
+      ],
+      "eastern": [
+        {
+          "month": "2024-08",
+          "cases": 157,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 154,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 148,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 148,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 132,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 134,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 140,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 158,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 163,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 148,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 153,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 158,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 157,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 151,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 153,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 154,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 133,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 149,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 153,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 149,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 147,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 156,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 158,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 152,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 155,
+          "low": 144,
+          "high": 166,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 152,
+          "low": 138,
+          "high": 166,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 150,
+          "low": 134,
+          "high": 167,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 147,
+          "low": 128,
+          "high": 166,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 140,
+          "low": 119,
+          "high": 161,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 142,
+          "low": 118,
+          "high": 166,
+          "type": "forecast"
+        }
+      ],
+      "northEastern": [
+        {
+          "month": "2024-08",
+          "cases": 62,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 58,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 57,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 57,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 57,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 54,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 59,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 59,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 58,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 64,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 63,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 60,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 65,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 64,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 59,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 58,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 57,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 53,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 59,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 57,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 59,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 63,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 65,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 65,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 62,
+          "low": 58,
+          "high": 66,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 61,
+          "low": 56,
+          "high": 66,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 60,
+          "low": 53,
+          "high": 67,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 59,
+          "low": 51,
+          "high": 67,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 56,
+          "low": 48,
+          "high": 64,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 57,
+          "low": 47,
+          "high": 67,
+          "type": "forecast"
+        }
+      ],
+      "nyanza": [
+        {
+          "month": "2024-08",
+          "cases": 404,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 383,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 410,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 372,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 387,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 375,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 409,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 392,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 425,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 416,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 421,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 432,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 429,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 410,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 428,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 382,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 358,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 360,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 391,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 427,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 410,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 416,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 406,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 450,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 418,
+          "low": 389,
+          "high": 447,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 410,
+          "low": 373,
+          "high": 447,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 406,
+          "low": 361,
+          "high": 451,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 398,
+          "low": 346,
+          "high": 450,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 378,
+          "low": 321,
+          "high": 435,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 382,
+          "low": 317,
+          "high": 447,
+          "type": "forecast"
+        }
+      ],
+      "riftValley": [
+        {
+          "month": "2024-08",
+          "cases": 159,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 171,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 170,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 160,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 156,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 148,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 161,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 162,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 165,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 169,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 183,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 177,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 171,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 172,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 162,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 158,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 144,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 162,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 166,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 170,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 167,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 168,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 174,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 172,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 170,
+          "low": 158,
+          "high": 182,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 167,
+          "low": 152,
+          "high": 182,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 165,
+          "low": 147,
+          "high": 183,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 162,
+          "low": 141,
+          "high": 183,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 154,
+          "low": 131,
+          "high": 177,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 156,
+          "low": 129,
+          "high": 183,
+          "type": "forecast"
+        }
+      ],
+      "western": [
+        {
+          "month": "2024-08",
+          "cases": 194,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 175,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 174,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 176,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 173,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 171,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 176,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 172,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 181,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 186,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 180,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 193,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 187,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 177,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 178,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 166,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 166,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 172,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 179,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 192,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 179,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 178,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 193,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 195,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 186,
+          "low": 173,
+          "high": 199,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 182,
+          "low": 166,
+          "high": 198,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 181,
+          "low": 161,
+          "high": 201,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 177,
+          "low": 154,
+          "high": 200,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 168,
+          "low": 143,
+          "high": 193,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 170,
+          "low": 141,
+          "high": 199,
+          "type": "forecast"
+        }
+      ]
+    },
+    "tb": {
+      "nairobi": [
+        {
+          "month": "2024-08",
+          "cases": 512,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 465,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 463,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 440,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 485,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 456,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 441,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 482,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 496,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 480,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 524,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 535,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 520,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 490,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 446,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 477,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 477,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 462,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 447,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 430,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 471,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 487,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 508,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 517,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 489,
+          "low": 455,
+          "high": 523,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 460,
+          "low": 419,
+          "high": 501,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 450,
+          "low": 401,
+          "high": 500,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 445,
+          "low": 387,
+          "high": 503,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 448,
+          "low": 381,
+          "high": 515,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 443,
+          "low": 368,
+          "high": 518,
+          "type": "forecast"
+        }
+      ],
+      "central": [
+        {
+          "month": "2024-08",
+          "cases": 193,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 178,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 174,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 176,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 169,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 159,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 169,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 165,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 172,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 165,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 173,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 175,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 189,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 176,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 173,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 169,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 175,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 159,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 168,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 168,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 173,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 165,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 186,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 178,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 178,
+          "low": 166,
+          "high": 190,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 167,
+          "low": 152,
+          "high": 182,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 164,
+          "low": 146,
+          "high": 182,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 162,
+          "low": 141,
+          "high": 183,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 163,
+          "low": 139,
+          "high": 187,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 161,
+          "low": 134,
+          "high": 188,
+          "type": "forecast"
+        }
+      ],
+      "coast": [
+        {
+          "month": "2024-08",
+          "cases": 331,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 323,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 315,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 320,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 302,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 300,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 308,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 337,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 319,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 342,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 335,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 367,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 349,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 321,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 299,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 302,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 303,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 307,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 304,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 303,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 333,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 308,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 350,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 347,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 333,
+          "low": 310,
+          "high": 356,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 314,
+          "low": 286,
+          "high": 342,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 307,
+          "low": 273,
+          "high": 341,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 303,
+          "low": 264,
+          "high": 342,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 306,
+          "low": 260,
+          "high": 352,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 302,
+          "low": 251,
+          "high": 353,
+          "type": "forecast"
+        }
+      ],
+      "eastern": [
+        {
+          "month": "2024-08",
+          "cases": 275,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 263,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 256,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 245,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 249,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 255,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 253,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 246,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 248,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 265,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 284,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 281,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 259,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 253,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 248,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 252,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 250,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 250,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 250,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 245,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 263,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 265,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 268,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 281,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 267,
+          "low": 248,
+          "high": 286,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 251,
+          "low": 228,
+          "high": 274,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 246,
+          "low": 219,
+          "high": 273,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 243,
+          "low": 211,
+          "high": 275,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 245,
+          "low": 208,
+          "high": 282,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 242,
+          "low": 201,
+          "high": 283,
+          "type": "forecast"
+        }
+      ],
+      "northEastern": [
+        {
+          "month": "2024-08",
+          "cases": 143,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 131,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 131,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 123,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 128,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 123,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 128,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 123,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 136,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 124,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 133,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 141,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 132,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 132,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 124,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 127,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 119,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 120,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 115,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 124,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 132,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 133,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 127,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 140,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 133,
+          "low": 124,
+          "high": 142,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 126,
+          "low": 115,
+          "high": 137,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 123,
+          "low": 109,
+          "high": 137,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 121,
+          "low": 105,
+          "high": 137,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 122,
+          "low": 104,
+          "high": 140,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 121,
+          "low": 100,
+          "high": 142,
+          "type": "forecast"
+        }
+      ],
+      "nyanza": [
+        {
+          "month": "2024-08",
+          "cases": 329,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 323,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 309,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 302,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 285,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 287,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 287,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 284,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 296,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 313,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 331,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 327,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 332,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 284,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 291,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 298,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 309,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 296,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 290,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 304,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 313,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 310,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 325,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 304,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 311,
+          "low": 289,
+          "high": 333,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 293,
+          "low": 267,
+          "high": 319,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 287,
+          "low": 255,
+          "high": 319,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 283,
+          "low": 246,
+          "high": 320,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 285,
+          "low": 242,
+          "high": 328,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 282,
+          "low": 234,
+          "high": 330,
+          "type": "forecast"
+        }
+      ],
+      "riftValley": [
+        {
+          "month": "2024-08",
+          "cases": 318,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 270,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 294,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 284,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 293,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 282,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 258,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 287,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 292,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 271,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 303,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 301,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 287,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 271,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 284,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 270,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 275,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 266,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 280,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 259,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 269,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 258,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 281,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 289,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 289,
+          "low": 269,
+          "high": 309,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 272,
+          "low": 248,
+          "high": 296,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 266,
+          "low": 237,
+          "high": 295,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 263,
+          "low": 229,
+          "high": 297,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 265,
+          "low": 225,
+          "high": 305,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 262,
+          "low": 217,
+          "high": 307,
+          "type": "forecast"
+        }
+      ],
+      "western": [
+        {
+          "month": "2024-08",
+          "cases": 228,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 231,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 209,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 216,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 206,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 219,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 203,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 210,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 219,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 206,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 238,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 238,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 226,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 208,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 211,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 210,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 211,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 212,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 209,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 219,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 200,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 222,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 217,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 237,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 222,
+          "low": 206,
+          "high": 238,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 209,
+          "low": 190,
+          "high": 228,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 205,
+          "low": 182,
+          "high": 228,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 202,
+          "low": 176,
+          "high": 228,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 204,
+          "low": 173,
+          "high": 235,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 201,
+          "low": 167,
+          "high": 235,
+          "type": "forecast"
+        }
+      ]
+    },
+    "malaria": {
+      "nairobi": [
+        {
+          "month": "2024-08",
+          "cases": 624,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 575,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 675,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 854,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 790,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 612,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 630,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 696,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 867,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 951,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 817,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 699,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 573,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 565,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 652,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 880,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 782,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 662,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 608,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 649,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 822,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 963,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 834,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 624,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 590,
+          "low": 549,
+          "high": 631,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 555,
+          "low": 505,
+          "high": 605,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 658,
+          "low": 586,
+          "high": 730,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 830,
+          "low": 722,
+          "high": 938,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 794,
+          "low": 675,
+          "high": 913,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 620,
+          "low": 515,
+          "high": 725,
+          "type": "forecast"
+        }
+      ],
+      "central": [
+        {
+          "month": "2024-08",
+          "cases": 735,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 727,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 869,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 1076,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 998,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 763,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 778,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 826,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 1097,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 1194,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 994,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 820,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 743,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 722,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 877,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 1034,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 1020,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 743,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 767,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 785,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 1145,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 1225,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 994,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 826,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 738,
+          "low": 686,
+          "high": 790,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 693,
+          "low": 631,
+          "high": 755,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 822,
+          "low": 732,
+          "high": 912,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 1037,
+          "low": 902,
+          "high": 1172,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 992,
+          "low": 843,
+          "high": 1141,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 775,
+          "low": 643,
+          "high": 907,
+          "type": "forecast"
+        }
+      ],
+      "coast": [
+        {
+          "month": "2024-08",
+          "cases": 2307,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 2413,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 2875,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 3622,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 3315,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 2426,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 2558,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 2863,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 3525,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 3772,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 3069,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 2657,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 2476,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 2226,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 2597,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 3546,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 3147,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 2449,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 2470,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 2548,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 3334,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 3927,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 3080,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 2506,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 2361,
+          "low": 2196,
+          "high": 2526,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 2219,
+          "low": 2019,
+          "high": 2419,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 2631,
+          "low": 2342,
+          "high": 2920,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 3319,
+          "low": 2888,
+          "high": 3750,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 3176,
+          "low": 2700,
+          "high": 3652,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 2482,
+          "low": 2060,
+          "high": 2904,
+          "type": "forecast"
+        }
+      ],
+      "eastern": [
+        {
+          "month": "2024-08",
+          "cases": 1843,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 1626,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 2160,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 2652,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 2460,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 1854,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 1833,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 1979,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 2724,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 2773,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 2580,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 1932,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 1778,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 1631,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 2070,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 2670,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 2527,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 1783,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 1735,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 1904,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 2676,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 2696,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 2486,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 2100,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 1771,
+          "low": 1647,
+          "high": 1895,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 1664,
+          "low": 1514,
+          "high": 1814,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 1973,
+          "low": 1756,
+          "high": 2190,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 2489,
+          "low": 2165,
+          "high": 2813,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 2382,
+          "low": 2025,
+          "high": 2739,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 1861,
+          "low": 1545,
+          "high": 2177,
+          "type": "forecast"
+        }
+      ],
+      "northEastern": [
+        {
+          "month": "2024-08",
+          "cases": 1434,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 1354,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 1605,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 2001,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 1944,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 1477,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 1294,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 1605,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 2087,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 2112,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 1748,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 1494,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 1374,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 1276,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 1555,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 1897,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 1843,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 1409,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 1335,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 1567,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 1879,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 2114,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 1801,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 1443,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 1328,
+          "low": 1235,
+          "high": 1421,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 1248,
+          "low": 1136,
+          "high": 1360,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 1480,
+          "low": 1317,
+          "high": 1643,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 1867,
+          "low": 1624,
+          "high": 2110,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 1786,
+          "low": 1518,
+          "high": 2054,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 1396,
+          "low": 1159,
+          "high": 1633,
+          "type": "forecast"
+        }
+      ],
+      "nyanza": [
+        {
+          "month": "2024-08",
+          "cases": 3725,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 3545,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 3859,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 5357,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 5163,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 3821,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 3716,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 4203,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 5338,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 5552,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 4802,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 4221,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 3409,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 3396,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 4148,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 5102,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 5043,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 3803,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 3423,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 3813,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 5350,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 5383,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 4932,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 4152,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 3542,
+          "low": 3294,
+          "high": 3790,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 3329,
+          "low": 3029,
+          "high": 3629,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 3947,
+          "low": 3513,
+          "high": 4381,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 4978,
+          "low": 4331,
+          "high": 5625,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 4764,
+          "low": 4049,
+          "high": 5479,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 3722,
+          "low": 3089,
+          "high": 4355,
+          "type": "forecast"
+        }
+      ],
+      "riftValley": [
+        {
+          "month": "2024-08",
+          "cases": 1854,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 1733,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 1954,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 2677,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 2461,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 1859,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 1779,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 2126,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 2567,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 3049,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 2323,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 2009,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 1735,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 1740,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 1895,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 2501,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 2312,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 1898,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 1692,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 1994,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 2701,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 2807,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 2441,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 1895,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 1771,
+          "low": 1647,
+          "high": 1895,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 1664,
+          "low": 1514,
+          "high": 1814,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 1973,
+          "low": 1756,
+          "high": 2190,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 2489,
+          "low": 2165,
+          "high": 2813,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 2382,
+          "low": 2025,
+          "high": 2739,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 1861,
+          "low": 1545,
+          "high": 2177,
+          "type": "forecast"
+        }
+      ],
+      "western": [
+        {
+          "month": "2024-08",
+          "cases": 2708,
+          "type": "historical"
+        },
+        {
+          "month": "2024-09",
+          "cases": 2629,
+          "type": "historical"
+        },
+        {
+          "month": "2024-10",
+          "cases": 3147,
+          "type": "historical"
+        },
+        {
+          "month": "2024-11",
+          "cases": 3948,
+          "type": "historical"
+        },
+        {
+          "month": "2024-12",
+          "cases": 3898,
+          "type": "historical"
+        },
+        {
+          "month": "2025-01",
+          "cases": 2928,
+          "type": "historical"
+        },
+        {
+          "month": "2025-02",
+          "cases": 2602,
+          "type": "historical"
+        },
+        {
+          "month": "2025-03",
+          "cases": 3101,
+          "type": "historical"
+        },
+        {
+          "month": "2025-04",
+          "cases": 3989,
+          "type": "historical"
+        },
+        {
+          "month": "2025-05",
+          "cases": 4357,
+          "type": "historical"
+        },
+        {
+          "month": "2025-06",
+          "cases": 3544,
+          "type": "historical"
+        },
+        {
+          "month": "2025-07",
+          "cases": 3171,
+          "type": "historical"
+        },
+        {
+          "month": "2025-08",
+          "cases": 2751,
+          "type": "historical"
+        },
+        {
+          "month": "2025-09",
+          "cases": 2532,
+          "type": "historical"
+        },
+        {
+          "month": "2025-10",
+          "cases": 2950,
+          "type": "historical"
+        },
+        {
+          "month": "2025-11",
+          "cases": 3594,
+          "type": "historical"
+        },
+        {
+          "month": "2025-12",
+          "cases": 3614,
+          "type": "historical"
+        },
+        {
+          "month": "2026-01",
+          "cases": 2723,
+          "type": "historical"
+        },
+        {
+          "month": "2026-02",
+          "cases": 2594,
+          "type": "historical"
+        },
+        {
+          "month": "2026-03",
+          "cases": 3106,
+          "type": "historical"
+        },
+        {
+          "month": "2026-04",
+          "cases": 3898,
+          "type": "historical"
+        },
+        {
+          "month": "2026-05",
+          "cases": 4203,
+          "type": "historical"
+        },
+        {
+          "month": "2026-06",
+          "cases": 3644,
+          "type": "historical"
+        },
+        {
+          "month": "2026-07",
+          "cases": 3096,
+          "type": "historical"
+        },
+        {
+          "month": "2026-08",
+          "cases": 2657,
+          "low": 2471,
+          "high": 2843,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-09",
+          "cases": 2497,
+          "low": 2272,
+          "high": 2722,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-10",
+          "cases": 2960,
+          "low": 2634,
+          "high": 3286,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-11",
+          "cases": 3734,
+          "low": 3249,
+          "high": 4219,
+          "type": "forecast"
+        },
+        {
+          "month": "2026-12",
+          "cases": 3573,
+          "low": 3037,
+          "high": 4109,
+          "type": "forecast"
+        },
+        {
+          "month": "2027-01",
+          "cases": 2792,
+          "low": 2317,
+          "high": 3267,
+          "type": "forecast"
+        }
+      ]
+    }
+  }
+}

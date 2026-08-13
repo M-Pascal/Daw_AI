@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# runtime user data (contains password hashes) - never commit real accounts
+/src/data/users.json

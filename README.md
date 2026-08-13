@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DawAI
 
-## Getting Started
+DawAI is an intelligent decision-support dashboard that analyzes disease
+patterns across Kenya's eight regions and forecasts future disease burden,
+to help public hospitals move from consumption-only planning toward
+evidence-based essential drug allocation.
 
-First, run the development server:
+Built with Next.js (App Router), Tailwind CSS, and JSON files as the data
+store — no external database is used.
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000). Sign up for a new
+account to reach the dashboard (Overview and Disease Forecast) — there are
+no seeded accounts.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+All application data lives in `src/data/` as JSON:
 
-## Learn More
+- `users.json` — registered accounts (created via Sign up, updated via
+  Forgot password). Starts empty.
+- `regions.json` / `diseases.json` — the eight Kenyan regions and the
+  three tracked diseases (HIV, TB, Malaria).
+- `disease-monthly-data.json` — monthly historical and forecasted case
+  counts per disease/region.
 
-To learn more about Next.js, take a look at the following resources:
+`disease-monthly-data.json` is **synthetic demonstration data**, generated
+by `scripts/generate-data.cjs` from generalized regional and seasonal
+patterns (per the project proposal's synthetic-dataset methodology) — it
+is not real hospital or surveillance data. Regenerate it at any time with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+node scripts/generate-data.cjs
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Auth
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Email/password auth is implemented with hashed passwords (bcrypt) and a
+signed JWT session cookie. Set a `SESSION_SECRET` environment variable in
+production; a development fallback secret is used otherwise. "Continue
+with Google" is present but intentionally inert — this environment has no
+Google OAuth credentials configured, so it surfaces that rather than
+faking a sign-in.
