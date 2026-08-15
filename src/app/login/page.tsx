@@ -1,7 +1,8 @@
 "use client";
 
-import { useActionState } from "react";
+import { Suspense, useActionState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { loginAction, type AuthFormState } from "@/lib/actions/auth-actions";
 import { SplitAuthShell } from "@/components/auth/split-auth-shell";
 import { GoogleAuthButton } from "@/components/google-auth-button";
@@ -12,8 +13,23 @@ import { Alert } from "@/components/ui/alert";
 
 const initialState: AuthFormState = {};
 
+const GOOGLE_ERROR_MESSAGES: Record<string, string> = {
+  google_not_configured: "Google sign-in isn't configured on this server yet.",
+  google_failed: "Google sign-in failed. Please try again or use email and password.",
+};
+
 export default function LoginPage() {
+  return (
+    <Suspense fallback={null}>
+      <LoginForm />
+    </Suspense>
+  );
+}
+
+function LoginForm() {
   const [state, formAction, pending] = useActionState(loginAction, initialState);
+  const searchParams = useSearchParams();
+  const googleError = searchParams.get("error");
 
   return (
     <SplitAuthShell
@@ -32,6 +48,11 @@ export default function LoginPage() {
       }
     >
       <form action={formAction} className="space-y-4">
+        {googleError && !state.error && (
+          <Alert variant="destructive">
+            {GOOGLE_ERROR_MESSAGES[googleError] ?? "Something went wrong. Please try again."}
+          </Alert>
+        )}
         {state.error && <Alert variant="destructive">{state.error}</Alert>}
 
         <div className="space-y-1.5">

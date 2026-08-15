@@ -39,16 +39,11 @@ export default async function OverviewPage() {
 
   return (
     <div className="space-y-8">
-      <div className="flex flex-wrap items-start justify-between gap-3">
-        <div>
-          <h1 className="text-2xl font-semibold tracking-tight text-foreground">Overview</h1>
-          <p className="mt-1 text-sm text-muted-foreground">
-            National picture for HIV, TB, and Malaria across Kenya&apos;s 8 regions.
-          </p>
-        </div>
-        <span className="inline-flex items-center rounded-full border border-border bg-secondary px-3 py-1 text-xs font-medium uppercase tracking-wide text-muted-foreground">
-          Synthetic data
-        </span>
+      <div>
+        <h1 className="text-2xl font-semibold tracking-tight text-foreground">Overview</h1>
+        <p className="mt-1 text-sm text-muted-foreground">
+          National picture for HIV, TB, and Malaria across Kenya&apos;s 8 regions.
+        </p>
       </div>
 
       {overview.length > 0 ? (

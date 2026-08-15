@@ -46,10 +46,25 @@ export async function findUserByEmail(email: string): Promise<User | undefined> 
   return users.find((u) => u.email.toLowerCase() === normalized);
 }
 
+export async function findUserByGoogleId(googleId: string): Promise<User | undefined> {
+  const users = await getUsers();
+  return users.find((u) => u.googleId === googleId);
+}
+
 export async function createUser(user: User): Promise<void> {
   const users = await getUsers();
   users.push(user);
   await saveUsers(users);
+}
+
+export async function linkGoogleId(email: string, googleId: string): Promise<User | undefined> {
+  const users = await getUsers();
+  const normalized = email.trim().toLowerCase();
+  const user = users.find((u) => u.email.toLowerCase() === normalized);
+  if (!user) return undefined;
+  user.googleId = googleId;
+  await saveUsers(users);
+  return user;
 }
 
 export async function updateUserPassword(

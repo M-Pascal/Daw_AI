@@ -13,10 +13,7 @@ export default function LandingPage() {
         {/* Hero */}
         <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
           <div className="max-w-3xl">
-            <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-primary">
-              Carnegie Mellon University Africa
-            </span>
-            <h1 className="mt-6 text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+            <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
               Intelligent disease surveillance for Kenya&apos;s 8 regions
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
@@ -154,10 +151,10 @@ export default function LandingPage() {
               </div>
               <div className="rounded-2xl border border-border bg-background p-8 text-sm text-muted-foreground">
                 <p>
-                  This system was built by a student team at Carnegie Mellon
-                  University Africa. Because hospital-level historical
-                  datasets are not publicly available, it is demonstrated
-                  here using a clearly-labeled synthetic dataset, as
+                  This system was built by a student research team. Because
+                  hospital-level historical datasets are not publicly
+                  available, it is demonstrated here using a clearly-labeled
+                  synthetic dataset, as
                   described in the project proposal&apos;s methodology. The
                   forecasting approach should be validated with real hospital
                   data in future work.

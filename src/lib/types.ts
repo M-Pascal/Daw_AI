@@ -55,7 +55,8 @@ export interface User {
   id: string;
   fullName: string;
   email: string;
-  passwordHash: string;
+  passwordHash: string | null;
+  googleId?: string;
   createdAt: string;
 }
 

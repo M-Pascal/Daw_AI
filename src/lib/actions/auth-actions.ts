@@ -85,6 +85,12 @@ export async function loginAction(
     return { error: "No account found with that email and password." };
   }
 
+  if (!user.passwordHash) {
+    return {
+      error: "This account signs in with Google. Use the “Continue with Google” button below.",
+    };
+  }
+
   const valid = await verifyPassword(password, user.passwordHash);
   if (!valid) {
     return { error: "No account found with that email and password." };

@@ -7,7 +7,7 @@ const SESSION_COOKIE = "dawai_session";
 const SESSION_DURATION_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
 
 function getSecretKey() {
-  const secret = process.env.SESSION_SECRET ?? "dawai-development-secret-key-change-me";
+  const secret = process.env.SESSION_SECRET || "dawai-development-secret-key-change-me";
   return new TextEncoder().encode(secret);
 }
 
