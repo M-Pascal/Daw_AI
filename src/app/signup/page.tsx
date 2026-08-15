@@ -3,7 +3,8 @@
 import { useActionState } from "react";
 import Link from "next/link";
 import { signupAction, type AuthFormState } from "@/lib/actions/auth-actions";
-import { AuthShell } from "@/components/auth-shell";
+import { SplitAuthShell } from "@/components/auth/split-auth-shell";
+import { GoogleAuthButton } from "@/components/google-auth-button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -15,14 +16,17 @@ export default function SignupPage() {
   const [state, formAction, pending] = useActionState(signupAction, initialState);
 
   return (
-    <AuthShell
+    <SplitAuthShell
+      headline="Track disease trends across Kenya's eight regions."
+      description="Create an account to monitor HIV, TB, and Malaria case burden, explore regional outbreak patterns, and forecast what's coming next."
       title="Create your DawAI account"
-      subtitle="Get access to the disease forecast dashboard"
+      subtitle="Get access to the disease forecast dashboard."
+      activeTab="signup"
       footer={
         <>
           Already have an account?{" "}
           <Link href="/login" className="font-medium text-primary hover:underline">
-            Log in
+            Sign in
           </Link>
         </>
       }
@@ -48,7 +52,14 @@ export default function SignupPage() {
 
         <div className="space-y-1.5">
           <Label htmlFor="password">Password</Label>
-          <Input id="password" name="password" type="password" required minLength={8} />
+          <Input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="At least 8 characters"
+            required
+            minLength={8}
+          />
           {state.fieldErrors?.password && (
             <p className="text-xs text-destructive">{state.fieldErrors.password}</p>
           )}
@@ -60,6 +71,7 @@ export default function SignupPage() {
             id="confirmPassword"
             name="confirmPassword"
             type="password"
+            placeholder="Re-enter your password"
             required
             minLength={8}
           />
@@ -72,6 +84,14 @@ export default function SignupPage() {
           {pending ? "Creating account..." : "Create account"}
         </Button>
       </form>
-    </AuthShell>
+
+      <div className="my-6 flex items-center gap-3 text-xs text-muted-foreground">
+        <div className="h-px flex-1 bg-border" />
+        OR
+        <div className="h-px flex-1 bg-border" />
+      </div>
+
+      <GoogleAuthButton />
+    </SplitAuthShell>
   );
 }

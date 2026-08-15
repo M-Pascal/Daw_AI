@@ -11,6 +11,7 @@ import {
   YAxis,
 } from "recharts";
 import type { OutbreakEntry } from "@/lib/data/derive";
+import { formatNumber } from "@/lib/utils";
 
 export function MostAffectedChart({
   data,
@@ -38,7 +39,7 @@ export function MostAffectedChart({
         <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" horizontal={false} />
         <XAxis
           type="number"
-          tickFormatter={(v: number) => v.toLocaleString()}
+          tickFormatter={(v: number) => formatNumber(v)}
           tick={{ fill: "var(--color-muted-foreground)", fontSize: 12 }}
           axisLine={{ stroke: "var(--color-border)" }}
           tickLine={false}
@@ -59,9 +60,9 @@ export function MostAffectedChart({
             borderRadius: 8,
             fontSize: 12,
           }}
-          formatter={(value) => [`${Number(value).toLocaleString()} cases`, diseaseName]}
+          formatter={(value) => [`${formatNumber(Number(value))} cases`, diseaseName]}
         />
-        <Bar dataKey="cases" radius={[0, 6, 6, 0]} maxBarSize={22}>
+        <Bar dataKey="cases" radius={[0, 6, 6, 0]} maxBarSize={22} isAnimationActive={false}>
           {data.map((entry, index) => (
             <Cell
               key={entry.regionId}

@@ -1,9 +1,10 @@
 # DawAI
 
-DawAI is an intelligent decision-support dashboard that analyzes disease
-patterns across Kenya's eight regions and forecasts future disease burden,
-to help public hospitals move from consumption-only planning toward
-evidence-based essential drug allocation.
+DawAI is an intelligent disease surveillance and forecasting dashboard for
+HIV, TB, and Malaria. It analyzes case patterns across Kenya's eight
+regions, maps where disease activity is concentrated, and forecasts future
+disease burden to help public health decision-makers spot rising trends
+early.
 
 Built with Next.js (App Router), Tailwind CSS, and JSON files as the data
 store — no external database is used.

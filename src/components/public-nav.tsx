@@ -11,10 +11,10 @@ export function PublicNav() {
         </Link>
         <nav className="flex items-center gap-2">
           <Link href="/login" className={buttonVariants({ variant: "ghost" })}>
-            Log in
+            Sign in
           </Link>
           <Link href="/signup" className={buttonVariants({})}>
-            Sign up
+            Create account
           </Link>
         </nav>
       </div>

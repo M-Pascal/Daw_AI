@@ -37,9 +37,9 @@ export async function GET(request: NextRequest) {
   const changePercent =
     previousCases === 0 ? 0 : ((currentCases - previousCases) / previousCases) * 100;
 
-  let trendStatus: TrendStatus = "balanced";
-  if (changePercent > 5) trendStatus = "shortage";
-  else if (changePercent < -5) trendStatus = "surplus";
+  let trendStatus: TrendStatus = "stable";
+  if (changePercent > 5) trendStatus = "rising";
+  else if (changePercent < -5) trendStatus = "declining";
 
   const nextForecastPoint = series.find((p) => p.forecast !== null && p.historical === null);
 

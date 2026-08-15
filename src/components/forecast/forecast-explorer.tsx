@@ -5,7 +5,7 @@ import { CalendarRange, TrendingUp } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Alert } from "@/components/ui/alert";
 import { StatusBadge } from "@/components/status-badge";
-import { cn } from "@/lib/utils";
+import { cn, formatNumber } from "@/lib/utils";
 import { ForecastChart } from "@/components/forecast/forecast-chart";
 import type { Disease, DiseaseId, Region, RegionId, TrendStatus } from "@/lib/types";
 import type { ForecastSeriesPoint, SeasonalInsight } from "@/lib/data/derive";
@@ -29,13 +29,17 @@ export function ForecastExplorer({
   diseases,
   regions,
   initialData,
+  initialDiseaseId,
+  initialRegionId,
 }: {
   diseases: Disease[];
   regions: Region[];
   initialData: ForecastPayload | null;
+  initialDiseaseId?: DiseaseId;
+  initialRegionId?: RegionId | "national";
 }) {
-  const [diseaseId, setDiseaseId] = useState<DiseaseId>(diseases[0]?.id ?? "hiv");
-  const [regionId, setRegionId] = useState<RegionId | "national">("national");
+  const [diseaseId, setDiseaseId] = useState<DiseaseId>(initialDiseaseId ?? diseases[0]?.id ?? "hiv");
+  const [regionId, setRegionId] = useState<RegionId | "national">(initialRegionId ?? "national");
   const [data, setData] = useState<ForecastPayload | null>(initialData);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -147,7 +151,7 @@ export function ForecastExplorer({
             <CardHeader className="pb-2">
               <CardDescription>Latest reported month</CardDescription>
               <CardTitle className="text-2xl tabular-nums">
-                {data.trend.currentCases.toLocaleString()}
+                {formatNumber(data.trend.currentCases)}
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -165,7 +169,9 @@ export function ForecastExplorer({
                 <TrendingUp className="h-3.5 w-3.5" /> Next month projection
               </CardDescription>
               <CardTitle className="text-2xl tabular-nums">
-                {data.nextMonth?.cases?.toLocaleString() ?? "—"}
+                {data.nextMonth?.cases !== null && data.nextMonth?.cases !== undefined
+                  ? formatNumber(data.nextMonth.cases)
+                  : "—"}
               </CardTitle>
             </CardHeader>
             <CardContent>

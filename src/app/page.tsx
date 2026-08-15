@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AlertTriangle, LineChart, MapPinned, ShieldCheck } from "lucide-react";
+import { LineChart, Radar, RefreshCcw, TrendingUp } from "lucide-react";
 import { PublicNav } from "@/components/public-nav";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -12,27 +12,79 @@ export default function LandingPage() {
       <main className="flex-1">
         {/* Hero */}
         <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
-          <div className="mx-auto max-w-3xl text-center">
-            <span className="inline-flex items-center rounded-full border border-border bg-secondary px-3 py-1 text-xs font-medium text-muted-foreground">
-              Carnegie Mellon University Africa &middot; Decision-support prototype
+          <div className="max-w-3xl">
+            <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-primary">
+              Carnegie Mellon University Africa
             </span>
-            <h1 className="mt-6 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
-              Forecasting disease trends to end drug shortages and expiry in
-              Kenya&apos;s public hospitals
+            <h1 className="mt-6 text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+              Intelligent disease surveillance for Kenya&apos;s 8 regions
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              DawAI analyzes disease patterns across Kenya&apos;s eight regions and
-              forecasts future disease burden, giving health decision-makers
-              evidence-based insight for essential drug allocation.
+              DawAI forecasts HIV, TB, and Malaria case trends across
+              Kenya&apos;s eight regions, flags where disease activity is
+              rising fastest, and helps health teams spot outbreaks before
+              they escalate.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-4">
+            <div className="mt-10 flex flex-wrap items-center gap-4">
               <Link href="/signup" className={buttonVariants({ size: "lg" })}>
                 Get started
               </Link>
               <Link href="/login" className={buttonVariants({ variant: "outline", size: "lg" })}>
-                Log in
+                I already have an account
               </Link>
             </div>
+          </div>
+
+          {/* Feature cards */}
+          <div className="mt-16 grid gap-6 sm:grid-cols-2">
+            <Card>
+              <CardHeader>
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                  <LineChart className="h-5 w-5" />
+                </div>
+                <CardTitle className="mt-2">Case forecasting</CardTitle>
+                <CardDescription>
+                  Monthly case-burden forecasts per region and disease,
+                  generated from historical patterns with a confidence range.
+                </CardDescription>
+              </CardHeader>
+            </Card>
+            <Card>
+              <CardHeader>
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                  <TrendingUp className="h-5 w-5" />
+                </div>
+                <CardTitle className="mt-2">Regional comparison</CardTitle>
+                <CardDescription>
+                  See which of Kenya&apos;s eight regions carry the greatest
+                  current disease burden, ranked at a glance.
+                </CardDescription>
+              </CardHeader>
+            </Card>
+            <Card>
+              <CardHeader>
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                  <RefreshCcw className="h-5 w-5" />
+                </div>
+                <CardTitle className="mt-2">Seasonal patterns</CardTitle>
+                <CardDescription>
+                  Recurring seasonal peaks and troughs are surfaced per
+                  disease, so rising activity doesn&apos;t come as a surprise.
+                </CardDescription>
+              </CardHeader>
+            </Card>
+            <Card>
+              <CardHeader>
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                  <Radar className="h-5 w-5" />
+                </div>
+                <CardTitle className="mt-2">Early trend signals</CardTitle>
+                <CardDescription>
+                  Regions with a sustained rise in cases are flagged early,
+                  instead of relying on retrospective monthly reports.
+                </CardDescription>
+              </CardHeader>
+            </Card>
           </div>
         </section>
 
@@ -41,111 +93,46 @@ export default function LandingPage() {
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
             <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
               <div>
-                <span className="inline-flex items-center gap-2 text-sm font-medium text-shortage">
-                  <AlertTriangle className="h-4 w-4" />
+                <span className="inline-flex items-center gap-2 text-sm font-medium text-forecast">
+                  <Radar className="h-4 w-4" />
                   The problem
                 </span>
                 <h2 className="mt-3 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
-                  Medicine worth Ksh 5.3 billion expired in five years &mdash;
-                  while other hospitals ran short
+                  Disease data is recorded &mdash; but rarely looked at forward
                 </h2>
                 <p className="mt-4 text-muted-foreground">
-                  Kenya&apos;s Ministry of Health reports that medicine valued at
-                  Ksh 5.3 billion expired between the 2020/2021 and 2024/2025
-                  financial years, even as chronic shortages continue to surge
-                  across all eight regions. Some hospitals suffer inadequate
-                  medicine allocation and stock-outs, while others over-allocate
-                  and see stock expire unused.
+                  Kenya has invested in digital health infrastructure, including
+                  the Kenya Health Information System (KHIS2), which records
+                  disease data across the country. Yet chronic disease burden
+                  continues to shift and surge across all eight regions, and
+                  most reporting looks backward at what already happened rather
+                  than forward at what&apos;s coming.
                 </p>
                 <p className="mt-4 text-muted-foreground">
-                  Kenya has invested in digital health infrastructure &mdash; the
-                  Kenya Health Information System (KHIS2) and KEMSA&apos;s
-                  Integrated Logistics Management Information System (i-LMIS)
-                  &mdash; yet resource allocation is still driven mostly by
-                  monthly consumption, which cannot detect changing demand.
+                  Without a forward-looking, region-by-region view, rising
+                  disease activity and seasonal outbreaks can go unnoticed until
+                  they are already severe &mdash; making it harder for health
+                  decision-makers to respond early.
                 </p>
               </div>
               <div className="rounded-2xl border border-border bg-background p-8">
                 <dl className="grid grid-cols-2 gap-6 text-center">
                   <div>
-                    <dt className="text-sm text-muted-foreground">
-                      Medicine expired (2020/21&ndash;2024/25)
-                    </dt>
-                    <dd className="mt-2 text-3xl font-semibold text-shortage">
-                      Ksh 5.3B
-                    </dd>
+                    <dt className="text-sm text-muted-foreground">Diseases tracked</dt>
+                    <dd className="mt-2 text-3xl font-semibold text-primary">HIV &middot; TB &middot; Malaria</dd>
                   </div>
                   <div>
                     <dt className="text-sm text-muted-foreground">
-                      Regions affected by shortages
+                      Regions monitored across Kenya
                     </dt>
-                    <dd className="mt-2 text-3xl font-semibold text-foreground">
-                      8 of 8
-                    </dd>
+                    <dd className="mt-2 text-3xl font-semibold text-foreground">8 of 8</dd>
                   </div>
                 </dl>
                 <p className="mt-6 text-xs text-muted-foreground">
-                  Source: Kenya Ministry of Health study, as cited in the DawAI
-                  project proposal.
+                  Scope as defined in the DawAI project proposal.
                 </p>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Solution */}
-        <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-          <div className="mx-auto max-w-2xl text-center">
-            <span className="text-sm font-medium text-primary">The solution</span>
-            <h2 className="mt-3 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
-              An intelligent disease trend analysis and forecasting system
-            </h2>
-            <p className="mt-4 text-muted-foreground">
-              DawAI analyzes patterns and trends of major diseases across
-              Kenya&apos;s eight regions, detects seasonal variation, and
-              predicts future disease burden &mdash; giving hospital
-              decision-makers a dashboard of insight to support evidence-based
-              drug allocation.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <Card>
-              <CardHeader>
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                  <LineChart className="h-5 w-5" />
-                </div>
-                <CardTitle className="mt-2">Disease pattern &amp; forecasting</CardTitle>
-                <CardDescription>
-                  Machine learning models identify disease patterns and predict
-                  future monthly case burden for HIV, TB, and Malaria.
-                </CardDescription>
-              </CardHeader>
-            </Card>
-            <Card>
-              <CardHeader>
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                  <MapPinned className="h-5 w-5" />
-                </div>
-                <CardTitle className="mt-2">Regional outbreak visibility</CardTitle>
-                <CardDescription>
-                  A Kenya-wide view highlights which of the eight regions carry
-                  the greatest current disease burden.
-                </CardDescription>
-              </CardHeader>
-            </Card>
-            <Card>
-              <CardHeader>
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                  <ShieldCheck className="h-5 w-5" />
-                </div>
-                <CardTitle className="mt-2">Evidence-based allocation</CardTitle>
-                <CardDescription>
-                  Dashboard insights help hospitals move away from
-                  consumption-only planning toward demand-aware allocation.
-                </CardDescription>
-              </CardHeader>
-            </Card>
           </div>
         </section>
 
@@ -160,20 +147,20 @@ export default function LandingPage() {
                 </h2>
                 <p className="mt-4 text-muted-foreground">
                   DawAI is designed for public hospital and health system staff
-                  responsible for essential drug allocation, who currently rely
-                  on monthly consumption records rather than demand forecasts to
-                  plan supply.
+                  who monitor disease burden and respond to outbreaks, who
+                  currently rely mostly on retrospective, monthly reporting
+                  rather than forward-looking disease forecasts.
                 </p>
               </div>
               <div className="rounded-2xl border border-border bg-background p-8 text-sm text-muted-foreground">
                 <p>
-                  This is a research proof-of-concept developed by a student
-                  team at Carnegie Mellon University Africa. Because
-                  hospital-level historical datasets are not publicly
-                  available, the system is demonstrated here using a
-                  clearly-labeled synthetic dataset, as described in the
-                  project proposal&apos;s methodology. The forecasting approach
-                  should be validated with real hospital data in future work.
+                  This system was built by a student team at Carnegie Mellon
+                  University Africa. Because hospital-level historical
+                  datasets are not publicly available, it is demonstrated
+                  here using a clearly-labeled synthetic dataset, as
+                  described in the project proposal&apos;s methodology. The
+                  forecasting approach should be validated with real hospital
+                  data in future work.
                 </p>
               </div>
             </div>
@@ -197,8 +184,8 @@ export default function LandingPage() {
 
       <footer className="border-t border-border py-8">
         <div className="mx-auto max-w-6xl px-4 text-center text-xs text-muted-foreground sm:px-6">
-          DawAI &mdash; an intelligent system for eliminating essential drug expiry
-          and shortages in Kenya&apos;s public hospitals.
+          DawAI &mdash; an intelligent disease surveillance and forecasting system
+          for Kenya&apos;s public hospitals.
         </div>
       </footer>
     </div>

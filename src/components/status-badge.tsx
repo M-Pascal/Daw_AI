@@ -2,21 +2,24 @@ import { cn } from "@/lib/utils";
 import type { TrendStatus } from "@/lib/types";
 import { ArrowDownRight, ArrowUpRight, Minus } from "lucide-react";
 
+// Trend direction maps onto the design system's shortage/surplus/balanced
+// status colors for visual consistency, without using that inventory-style
+// vocabulary in the disease-surveillance domain model itself.
 const STATUS_CONFIG: Record<
   TrendStatus,
   { label: string; className: string; Icon: typeof ArrowUpRight }
 > = {
-  shortage: {
-    label: "Rising demand",
+  rising: {
+    label: "Rising cases",
     className: "bg-shortage/10 text-shortage border-shortage/30",
     Icon: ArrowUpRight,
   },
-  surplus: {
-    label: "Falling demand",
+  declining: {
+    label: "Falling cases",
     className: "bg-surplus/15 text-surplus border-surplus/40",
     Icon: ArrowDownRight,
   },
-  balanced: {
+  stable: {
     label: "Stable",
     className: "bg-balanced/10 text-balanced border-balanced/30",
     Icon: Minus,

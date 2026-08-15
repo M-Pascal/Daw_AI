@@ -12,6 +12,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { formatNumber } from "@/lib/utils";
 
 export interface ForecastChartPoint {
   month: string;
@@ -45,7 +46,7 @@ export function ForecastChart({
           interval={2}
         />
         <YAxis
-          tickFormatter={(v: number) => v.toLocaleString()}
+          tickFormatter={(v: number) => formatNumber(v)}
           tick={{ fill: "var(--color-muted-foreground)", fontSize: 12 }}
           axisLine={{ stroke: "var(--color-border)" }}
           tickLine={false}
@@ -60,7 +61,7 @@ export function ForecastChart({
           }}
           formatter={(value, name) => {
             if (value === null || value === undefined) return ["-", name];
-            return [`${Number(value).toLocaleString()} cases`, name];
+            return [`${formatNumber(Number(value))} cases`, name];
           }}
         />
         <Legend wrapperStyle={{ fontSize: 12 }} />

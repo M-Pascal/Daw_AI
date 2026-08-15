@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { StatusBadge } from "@/components/status-badge";
 import { Sparkline } from "@/components/overview/sparkline";
 import { formatMonth } from "@/lib/data/derive";
+import { formatNumber } from "@/lib/utils";
 import type { NationalOverviewEntry } from "@/lib/data/derive";
 import type { Disease } from "@/lib/types";
 
@@ -35,7 +36,7 @@ export function NationalOverviewCards({
               <div className="flex items-end justify-between">
                 <div>
                   <p className="text-3xl font-semibold tabular-nums text-foreground">
-                    {entry.currentCases.toLocaleString()}
+                    {formatNumber(entry.currentCases)}
                   </p>
                   <p className="text-xs text-muted-foreground">
                     reported cases &middot; {formatMonth(entry.currentMonth)}
