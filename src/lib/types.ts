@@ -59,7 +59,7 @@ export interface User {
   createdAt: string;
 }
 
-export type TrendStatus = "shortage" | "surplus" | "balanced";
+export type TrendStatus = "rising" | "declining" | "stable";
 
 export interface SessionPayload {
   userId: string;
