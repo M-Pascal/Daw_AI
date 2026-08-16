@@ -21,6 +21,9 @@
   --input: oklch(0.912 0.012 195);
   --ring: oklch(0.48 0.106 191);
 
+  --sidebar: oklch(0.94 0.016 190);
+  --sidebar-foreground: oklch(0.235 0.032 200);
+
   --shortage: oklch(0.567 0.208 25);
   --shortage-foreground: oklch(0.985 0.005 180);
 
@@ -62,6 +65,9 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
 
   --color-shortage: var(--shortage);
   --color-shortage-foreground: var(--shortage-foreground);

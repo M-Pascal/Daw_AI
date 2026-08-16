@@ -28,6 +28,8 @@ export function TrendChart({
   series: TrendChartSeries[];
   boundaryLabel: string | null;
 }) {
+  const tickInterval = Math.max(2, Math.ceil(data.length / 12) - 1);
+
   return (
     <ResponsiveContainer width="100%" height={360}>
       <ComposedChart data={data} margin={{ top: 8, right: 16, bottom: 8, left: 0 }}>
@@ -37,7 +39,7 @@ export function TrendChart({
           tick={{ fill: "var(--color-muted-foreground)", fontSize: 11 }}
           axisLine={{ stroke: "var(--color-border)" }}
           tickLine={false}
-          interval={2}
+          interval={tickInterval}
         />
         <YAxis
           tickFormatter={(v: number) => formatNumber(v)}

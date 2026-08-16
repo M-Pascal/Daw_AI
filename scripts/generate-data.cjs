@@ -80,9 +80,15 @@ function seedFromString(str) {
   return h >>> 0;
 }
 
+const START_MONTH = "2021-01"; // earliest historical month
 const CURRENT_MONTH = "2026-07"; // latest complete historical month
-const HISTORICAL_MONTHS = 24;
 const FORECAST_MONTHS = 6;
+
+function monthIndex(yearMonth) {
+  const [y, m] = yearMonth.split("-").map(Number);
+  return y * 12 + (m - 1);
+}
+const HISTORICAL_MONTHS = monthIndex(CURRENT_MONTH) - monthIndex(START_MONTH) + 1;
 
 function monthsBack(yearMonth, count) {
   const [y, m] = yearMonth.split("-").map(Number);

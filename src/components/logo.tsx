@@ -4,7 +4,7 @@ import logoImage from "../../public/logo.png";
 
 export function Logo({
   className,
-  size = 36,
+  size = 40,
 }: {
   className?: string;
   size?: number;

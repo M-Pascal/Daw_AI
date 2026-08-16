@@ -10,12 +10,12 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "DawAI — Disease Forecast Dashboard",
   description:
-    "An intelligent disease surveillance and forecasting system for HIV, TB, and Malaria across Kenya's eight regions, built for public hospital decision-makers.",
+    "Disease trend forecasting for HIV, TB, and Malaria across Kenya's eight regions, built for the Kenya Medical Supplies Authority.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${manrope.variable} h-full antialiased`}>
+    <html lang="en" className={`${manrope.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

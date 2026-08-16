@@ -14,8 +14,12 @@ const DISEASE_COLORS: Record<DiseaseId, string> = {
 };
 
 const PERIOD_OPTIONS = [
-  { label: "3 months", months: 3 },
-  { label: "6 months", months: 6 },
+  { label: "1 year", months: 12 },
+  { label: "2 years", months: 24 },
+  { label: "3 years", months: 36 },
+  { label: "4 years", months: 48 },
+  { label: "5 years", months: 60 },
+  { label: "All (2021-2026)", months: 67 },
 ];
 
 interface ForecastApiResponse {
@@ -33,7 +37,7 @@ export function TrendExplorer({
 }) {
   const [diseaseFilter, setDiseaseFilter] = useState<DiseaseId | "all">("all");
   const [regionFilter, setRegionFilter] = useState<RegionId | "national">("national");
-  const [periodMonths, setPeriodMonths] = useState(3);
+  const [periodMonths, setPeriodMonths] = useState(67);
   const [statusFilter, setStatusFilter] = useState<TrendStatus | "all">("all");
 
   const [chartData, setChartData] = useState<Record<string, string | number | null>[]>([]);

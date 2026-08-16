@@ -25,7 +25,7 @@ export function SplitAuthShell({
       {/* Marketing panel */}
       <div className="relative hidden overflow-hidden bg-gradient-to-br from-primary to-primary-glow p-10 text-primary-foreground lg:flex lg:flex-col">
         <Link href="/" className="absolute left-10 top-10">
-          <Logo size={44} />
+          <Logo size={48} className="drop-shadow-[0_0_14px_rgba(255,255,255,0.65)]" />
         </Link>
         <div className="flex h-full max-w-md flex-col justify-center">
           <h2 className="text-3xl font-bold leading-tight sm:text-4xl">{headline}</h2>
@@ -39,7 +39,7 @@ export function SplitAuthShell({
       <div className="flex flex-col items-center justify-center px-4 py-12 sm:px-6">
         <div className="mb-8 lg:hidden">
           <Link href="/">
-            <Logo size={40} />
+            <Logo size={44} />
           </Link>
         </div>
 
