@@ -33,6 +33,7 @@ export function ForecastChart({
   lastHistoricalMonth: string;
 }) {
   const boundary = data.find((d) => d.month === lastHistoricalMonth)?.monthLabel;
+  const tickInterval = Math.max(2, Math.ceil(data.length / 12) - 1);
 
   return (
     <ResponsiveContainer width="100%" height={360}>
@@ -43,7 +44,7 @@ export function ForecastChart({
           tick={{ fill: "var(--color-muted-foreground)", fontSize: 11 }}
           axisLine={{ stroke: "var(--color-border)" }}
           tickLine={false}
-          interval={2}
+          interval={tickInterval}
         />
         <YAxis
           tickFormatter={(v: number) => formatNumber(v)}
